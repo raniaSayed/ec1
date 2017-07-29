@@ -1,0 +1,70 @@
+body {
+  background: #FCFCFC; }
+  body #affix-container section {
+    padding: 20px 0;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #c1e1ec; }
+    body #affix-container section > h2 {
+      border-bottom: 1px solid #c1e1ec;
+      padding-bottom: 15px;
+      margin-bottom: 30px; }
+    body #affix-container section > ol > li {
+      font-size: 24px;
+      margin-bottom: 30px; }
+      body #affix-container section > ol > li h3 {
+        margin-bottom: 5px; }
+      body #affix-container section > ol > li > span {
+        color: rgba(45, 45, 45, 0.6);
+        padding-bottom: 7px;
+        font-size: 16px;
+        display: block; }
+  body #affix-container #web-development,
+  body #affix-container #mobile-development {
+    padding-bottom: 0; }
+  body #affix-container section:last-child {
+    border-bottom: none; }
+  body #affix-container .nav .active {
+    font-weight: bold;
+    background: #F9F9F9; }
+  body #affix-container .nav .nav {
+    display: none; }
+  body #affix-container .nav .active .nav {
+    display: block; }
+  body #affix-container .nav .nav a {
+    font-weight: normal;
+    font-size: .85em; }
+  body #affix-container .nav .nav span {
+    margin: 0 5px 0 2px; }
+  body #affix-container .nav .nav .active a,
+  body #affix-container .nav .nav .active:hover a,
+  body #affix-container .nav .nav .active:focus a {
+    font-weight: bold;
+    padding-left: 30px;
+    border-left: 5px solid black; }
+  body #affix-container .nav .nav .active span,
+  body #affix-container .nav .nav .active:hover span,
+  body #affix-container .nav .nav .active:focus span {
+    display: none; }
+  body #affix-container .application {
+    border-top: 1px solid #c1e1ec; }
+  body #affix-container .affix-top {
+    position: relative; }
+  body #affix-container .affix {
+    top: 20px; }
+  body #affix-container .affix,
+  body #affix-container .affix-bottom {
+    width: 213px; }
+  body #affix-container .affix-bottom {
+    position: absolute; }
+  body #affix-container footer {
+    border-top: 1px solid #c1e1ec;
+    height: 50px; }
+  body #affix-container footer p {
+    line-height: 50px;
+    margin-bottom: 0; }
+  @media (min-width: 1200px) {
+    body #affix-container .affix,
+    body #affix-container .affix-bottom {
+      width: 263px; } }
+
+/*# sourceMappingURL=documentation.css.map */

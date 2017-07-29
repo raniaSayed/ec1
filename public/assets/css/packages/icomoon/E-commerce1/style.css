@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?a6u56k');
+  src:  url('fonts/icomoon.eot?a6u56k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?a6u56k') format('truetype'),
+    url('fonts/icomoon.woff?a6u56k') format('woff'),
+    url('fonts/icomoon.svg?a6u56k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-translation:before {
+  content: "\e900";
+}
+.icomoon-gears:before {
+  content: "\ec902";
+}
+.icomoon-lock:before {
+  content: "\ec903";
+}
+.icomoon-paper-edit:before {
+  content: "\ec904";
+}
+.icomoon-admin:before {
+  content: "\ec905";
+}
+.icomoon-users-crowd:before {
+  content: "\ec906";
+}
+.icomoon-cart:before {
+  content: "\ec907";
+}
+.icomoon-tags:before {
+  content: "\ec908";
+}
+.icomoon-gallery:before {
+  content: "\ec909";
+}
+.icomoon-branch:before {
+  content: "\ec90a";
+}
+.icomoon-paper-add:before {
+  content: "\ec90b";
+}
+.icomoon-items:before {
+  content: "\ec900";
+}
+.icomoon-dashboard:before {
+  content: "\ec901";
+}

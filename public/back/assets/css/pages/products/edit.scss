@@ -1,0 +1,27 @@
+#product-edit-page {
+	.panel {
+		.panel-heading {
+			.product-name {
+				display: inline-block;
+				white-space: nowrap;
+				width: 70%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				margin-bottom: -10px;
+			}
+		}
+
+        #zoomwall1 {
+            img {
+                cursor: pointer;
+                &:hover {
+                    opacity: .9;
+                }
+            }
+        }
+	}
+
+	#product-images {
+		@extend %products-images-dropzone;
+	}
+}

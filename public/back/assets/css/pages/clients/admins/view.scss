@@ -1,0 +1,34 @@
+#admins-view-page {
+	.panel {
+		border: 0 !important;
+		box-shadow: 0;
+
+		.panel-body {
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-right: 13px;
+			margin-top: -1px;
+
+            .empty-status {
+                padding: 15px;
+            }
+
+			.container-fluid {
+				padding: 0;
+				margin-bottom: 0;
+
+				table.ps-view {
+					margin-bottom: 15px;
+					margin-top: 15px;
+					width: 100%;
+
+					td {
+						padding: 8px;
+					}
+				}
+			}
+		}
+	}
+		
+		
+}

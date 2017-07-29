@@ -1,0 +1,47 @@
+/*
+| .input-xlg
+*/
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input[type="date"].input-xlg,
+  input[type="time"].input-xlg,
+  input[type="datetime-local"].input-xlg,
+  input[type="month"].input-xlg,
+    line-height: 60px;
+  }
+}
+
+.form-control-static.input-xlg {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.input-xlg {
+  height: 60px;
+  padding: 12px 16px;
+  font-size: 24px;
+  line-height: 1.5;
+  border-radius: 6px;
+}
+
+select.input-xlg {
+  height: 60px;
+  line-height: 60px;
+}
+
+textarea.input-xlg,
+select[multiple].input-xlg {
+  height: auto;
+}
+
+.input-xlg + .form-control-feedback {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.input-group-addon.input-xlg {
+  padding: 12px 16px;
+  font-size: 24px;
+  border-radius: 6px;
+}

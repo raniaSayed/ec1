@@ -1,0 +1,68 @@
+#dashboard-page {
+    .panel-body {
+        //margin: 7px;
+        //padding: 0;
+        background: #F9F9F9;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        .row {
+            /* column width */
+            -moz-column-width: 20em;
+            -webkit-column-width: 20em;
+            
+            /* space between columns */
+            -moz-column-gap: 15px;
+            -webkit-column-gap: 15px;
+
+            margin:0;
+            padding-bottom: 15px;
+
+            border-bottom: 3px dashed rgba(45,45,45,.2);
+
+            .item {
+                display: inline-block;
+                background: #FFF;
+                width: 100%;
+                color: #2d2d2d;
+                font-size: 16px;
+                text-align: center;
+                margin-bottom: 15px;
+                margin-right: 7px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+
+                .title {
+                    font-weight: bold;
+                }
+
+                .content {
+                    color: #03A9F4;
+                    font-size: 42px;
+                }
+            }
+        }
+
+
+
+        /*div.col-md-3 > div {
+            font-size: 18px;
+            padding: 15px;
+            color: #FFF;
+
+            > div {
+                text-align: center;
+            }
+
+            div.content {
+                font-size: 50px;
+            }
+
+            //padding: 7px;
+            //margin: 7px;
+            //width: 200px;
+            //height: 200px;
+            //display: inline-block;
+        }*/
+    }
+}

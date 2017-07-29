@@ -1,0 +1,27 @@
+#cart-view-page {
+	.container-fluid {
+		.total-prices {
+			font-size: 20px;
+		}
+
+		.extra {
+            .buttons {
+                button, input, form, a {
+                    display: inline-block !important;
+
+                    i.fa {
+                        vertical-align: middle;
+                    }
+                }
+
+                .by-paypal-payment.color {
+                    color: #012169;
+                }
+
+                .on-delivery-payment.color {
+                    color: #009688;
+                }
+            }
+		}
+	}	
+}

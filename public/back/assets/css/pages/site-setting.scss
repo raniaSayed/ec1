@@ -1,0 +1,56 @@
+#site-setting-page {
+    .panel-body {
+        background: #FAFAFA;
+        padding-left: 15px;
+        padding-right: 15px;
+
+        form > div {
+            margin-bottom: 15px;
+            border-bottom: 3px dashed rgba(45,45,45,.2);
+        }
+    }
+
+    .base-title {
+        color: #03A9F4;
+    }
+
+    .main-setting, .product-setting {
+        .primary {
+            width: 66%;
+            display: inline-block;
+
+            .row {
+                float: left;
+                -moz-column-count: 2 !important;
+                -webkit-column-count: 2 !important;
+            }
+        }
+        .secondry {
+            width: 32%;
+            display: inline-block;
+            margin-left: 1%;
+
+            .row {
+                float: left;
+                -moz-column-count: 1 !important;
+                -webkit-column-count: 1 !important;
+            }
+        }
+    }
+
+    .row {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+
+        -moz-column-gap: 15px;
+        -webkit-column-gap: 15px;
+
+        margin:0;
+        margin-bottom: 15px;
+
+        .item {
+            width: 100%;
+            display: inline-block;
+        }
+    }
+}
